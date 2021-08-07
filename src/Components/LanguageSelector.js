@@ -8,6 +8,7 @@ const LanguageSelector = (props) => {
   let handleChange = (event) => {
     setLang(event.target.value);
     localStorage.setItem("lang", event.target.value);
+    document.documentElement.setAttribute("lang", event.target.value);
   }
 
   return (
