@@ -10,6 +10,7 @@ const Page = (props) => {
     <div>
       <h1> {content[lang]['title']} </h1>
       <p> {content[lang]['paragraph']} </p>
+      <p> Hello Steven </p>
     </div>
   )
 }
